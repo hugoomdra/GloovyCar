@@ -1,5 +1,6 @@
 <p align="center"><img src="readme/img/eseo_logo.png" width="400"></p>
-<p align="center">
+<p align="center" class="identite">
+projet réalisé par 
 <a href="https://www.linkedin.com/in/hugo-madureira/">Hugo MADUREIRA</a>
   et
 <a href="https://www.linkedin.com/in/germain-adam-543a26173/">Germain ADAM</a>
