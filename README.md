@@ -4,7 +4,25 @@ GroovyCar est un projet réalisé dans le cadre d'une formation d'ingénieur.
 Le but est de monter un mini-projet alliant software en C et Hardware.
 Il fera l'objet d'une évaluation au semestre 6 (Juin 2020).
 
-GroovyCar est un projet réalisé par [Germain ADAM](https://www.linkedin.com/in/germain-adam-543a26173/) et [Hugo MADUREIRA](https://www.linkedin.com/in/hugo-madureira/).
+**GroovyCar est un projet réalisé par [Germain ADAM](https://www.linkedin.com/in/germain-adam-543a26173/) et [Hugo MADUREIRA](https://www.linkedin.com/in/hugo-madureira/).**
+
+
+# Sommaire
+
+* [Support](#introduction)
+* [Release Types](#release-types)
+  * [Download](#download)
+    * [Current and LTS Releases](#current-and-lts-releases)
+    * [Nightly Releases](#nightly-releases)
+    * [API Documentation](#api-documentation)
+  * [Verifying Binaries](#verifying-binaries)
+* [Building Node.js](#building-nodejs)
+* [Security](#security)
+* [Contributing to Node.js](#contributing-to-nodejs)
+* [Current Project Team Members](#current-project-team-members)
+  * [TSC (Technical Steering Committee)](#tsc-technical-steering-committee)
+  * [Collaborators](#collaborators)
+  * [Release Keys](#release-keys)
 
 # GloovyCar
 
