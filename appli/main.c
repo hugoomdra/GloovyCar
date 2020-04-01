@@ -12,6 +12,8 @@
 #include "stm32f1_gpio.h"
 #include "macro_types.h"
 #include "systick.h"
+#include "accelero.h"
+
 
 void writeLED(bool_e b)
 {
