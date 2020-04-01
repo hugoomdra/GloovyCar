@@ -14,8 +14,6 @@ Il fera l'objet d'une évaluation au semestre 6 (Juin 2020).
 * [Description du projet](#description-du-projet)
 * [Dashboard](#dashboard)
 
-# GloovyCar
-
 ### Liens importants
 
 * [Dashboard pour suivre l'avancement du projet](readme/dashboard.md)
