@@ -1,10 +1,8 @@
 <p align="center"><img src="readme/img/eseo_logo.png" width="400"></p>
-
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+<a href="https://www.linkedin.com/in/hugo-madureira/">Hugo MADUREIRA</a>
+  et
+<a href="https://www.linkedin.com/in/germain-adam-543a26173/">Germain ADAM</a>
 </p>
 
 
