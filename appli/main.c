@@ -39,7 +39,8 @@ int main(void)
 	//Cette ligne doit rester la premi�re �tape de la fonction main().
 	HAL_Init();
 
-	//hugo the boss version 2
+	I2C_Init(, )
+
 
 	//Initialisation de l'UART2 � la vitesse de 115200 bauds/secondes (92kbits/s) PA2 : Tx  | PA3 : Rx.
 		//Attention, les pins PA2 et PA3 ne sont pas reli�es jusqu'au connecteur de la Nucleo.
