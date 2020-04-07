@@ -36,13 +36,13 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: projet-f103.elf
+all: GloovyCar.elf
 
 # Tool invocations
-projet-f103.elf: $(OBJS) $(USER_OBJS) ../lib/LinkerScript.ld
+GloovyCar.elf: $(OBJS) $(USER_OBJS) ../lib/LinkerScript.ld
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU GCC Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -u_printf_float -T"../lib/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "projet-f103.elf" @"objects.list" $(USER_OBJS) $(LIBS) -lm
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -u_printf_float -T"../lib/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "GloovyCar.elf" @"objects.list" $(USER_OBJS) $(LIBS) -lm
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
@@ -54,8 +54,8 @@ clean:
 
 post-build:
 	-@echo 'Generating binary and Printing size information:'
-	arm-none-eabi-objcopy -O binary "projet-f103.elf" "projet-f103.bin"
-	arm-none-eabi-size "projet-f103.elf"
+	arm-none-eabi-objcopy -O binary "GloovyCar.elf" "GloovyCar.bin"
+	arm-none-eabi-size "GloovyCar.elf"
 	-@echo ' '
 
 .PHONY: all clean dependents
