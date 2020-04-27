@@ -7,6 +7,8 @@ Il fera l'objet d'une évaluation au semestre 6 (Juin 2020).
 
 **GroovyCar est un projet réalisé par [Germain ADAM](https://www.linkedin.com/in/germain-adam-543a26173/) et [Hugo MADUREIRA](https://www.linkedin.com/in/hugo-madureira/).**
 
-✋ Code de la carte du gant disponible [ici](https://github.com/hugoomdra/GloovyCar/tree/code-gant).
+---
 
-🚗 Code de la carte du chassis disponible [ici](https://github.com/hugoomdra/GloovyCar/tree/code-chassis)
+✋ **Code de la carte présente sur le GANT :** [disponible ici](https://github.com/hugoomdra/GloovyCar/tree/code-gant).
+
+🚗 **Code de la carte présente sur le CHÂSSIS :** [disponible ici](https://github.com/hugoomdra/GloovyCar/tree/code-chassis)
