@@ -16,7 +16,7 @@ Il fera l'objet d'une évaluation au semestre 6 (Juin 2020).
 📖 **Rapport de projet :** [disponible ici]()
 
 ---
-## Sommaire
+# Sommaire
 
 - [Introduction]()
 - [Description du projet]()
@@ -25,6 +25,7 @@ Il fera l'objet d'une évaluation au semestre 6 (Juin 2020).
 - [Schéma électrique]()
 - [Validation du PCB]()
 - [Routage]()
+- [Manuel d'utilisation]()
 - [Description d'un algorithme du programme]()
 - [Structure du programme]()
 - [Cahier de suivi]()
