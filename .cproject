@@ -193,15 +193,6 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="F103.fr.ac6.managedbuild.target.gnu.cross.exe.864673629" name="Executable" projectType="fr.ac6.managedbuild.target.gnu.cross.exe"/>
 	</storageModule>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.debug.1375120397;fr.ac6.managedbuild.config.gnu.cross.exe.debug.1375120397.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.693806025;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.1872370140">
-			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.release.761167739;fr.ac6.managedbuild.config.gnu.cross.exe.release.761167739.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1783669828;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.577476161">
-			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="Debug_for_NUCLEO">
@@ -216,4 +207,6 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="scannerConfiguration"/>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
 </cproject>
