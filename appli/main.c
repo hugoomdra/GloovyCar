@@ -12,6 +12,7 @@
 #include "stm32f1_gpio.h"
 #include "macro_types.h"
 #include "systick.h"
+#include "mbed.h"
 
 void writeLED(bool_e b)
 {
@@ -56,10 +57,12 @@ int main(void)
 	Systick_add_callback_function(&process_ms);
 
 
+	uint16_t tab_data[3];
+
 
 	while(1)	//boucle de tâche de fond
 	{
-
-		machine_etat();
+		//tab_data = données récupérée via bluetooth
+		machine_etat(tab_data);
 	}
 }

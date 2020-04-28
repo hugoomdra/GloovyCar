@@ -72,11 +72,14 @@ void machine_etat(uint16_t tab_data[]){
 
 		case DEFAUT:
 			arret();
-			if(tab_data[0]> valeurs_a_determiner_en_test)
-				etat = AVANCER;
-			//exemple sans les valeurs où nous testerions tab_data[0],
-			//tab_data[1] et tab_data[2] qui sont les valeurs X,Y,Z luues
-			//par l'accelerometre
+			//if(bluetooth activé ){
+				if(tab_data[0]> valeurs_a_determiner_en_test)
+					etat = AVANCER;
+				//exemple sans les valeurs où nous testerions tab_data[0],
+				//tab_data[1] et tab_data[2] qui sont les valeurs X,Y,Z luues
+				//par l'accelerometre
+
+			//}
 			break;
 
 		case AVANCER:
