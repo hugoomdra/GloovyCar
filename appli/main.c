@@ -59,11 +59,7 @@ int main(void)
 
 	while(1)	//boucle de tâche de fond
 	{
-		if(!t)
-		{
-			t = 200;
-			HAL_GPIO_TogglePin(LED_GREEN_GPIO, LED_GREEN_PIN);
-		}
 
+		machine_etat();
 	}
 }
