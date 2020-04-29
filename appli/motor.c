@@ -68,13 +68,13 @@ void arret(){
 
 void machine_etat(State etat){
 
-	uint16_t valeurs_a_determiner_en_test;
+	int16_t valeurs_a_determiner_en_test;
 	switch(etat){
 		case DEFAUT:
 			arret();
 			//if(bluetooth activ� ){
-				if(tab_data[0]> valeurs_a_determiner_en_test)
-					etat = AVANCER;
+				//if(tab_data[0]> valeurs_a_determiner_en_test)
+					//etat = AVANCER;
 				//exemple sans les valeurs o� nous testerions tab_data[0],
 				//tab_data[1] et tab_data[2] qui sont les valeurs X,Y,Z luues
 				//par l'accelerometre

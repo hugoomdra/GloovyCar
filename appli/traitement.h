@@ -1,3 +1,3 @@
 
 
-State traitement(uint16_t data);
+State traitement(int16_t data);
