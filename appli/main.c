@@ -13,6 +13,7 @@
 #include "macro_types.h"
 #include "systick.h"
 #include "accelero.h"
+#include "bluetooth.h"
 
 
 void writeLED(bool_e b)
@@ -56,15 +57,13 @@ int main(void)
 	//On ajoute la fonction process_ms � la liste des fonctions appel�es automatiquement chaque ms par la routine d'interruption du p�riph�rique SYSTICK
 	Systick_add_callback_function(&process_ms);
 
-
+	initAccelero(); //init de l'accelero.
 
 	while(1)	//boucle de t�che de fond
 	{
-		if(!t)
-		{
-			t = 200;
-			HAL_GPIO_TogglePin(LED_GREEN_GPIO, LED_GREEN_PIN);
-		}
+
+		int16_t data = tabValeurAccelero();
+		sendData(data);
 
 	}
 }

@@ -22,8 +22,8 @@ void initAccelero(){
 }
 
 
-uint16_t *tabValeurAccelero(){
-	uint16_t tab_accelero;
+int16_t *tabValeurAccelero(){
+	int16_t tab_accelero;
 	MPU6050_ReadAccelerometer(datas);
 	tab_accelero[0] = datas.Accelerometer_X;
 	tab_accelero[1] = datas.Accelerometer_Y;
