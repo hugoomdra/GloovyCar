@@ -9,7 +9,7 @@
 #define ACCELERO_H_
 
 void initAccelero(void);
-uint16_t *tabValeurAccelero(void);
+int16_t *tabValeurAccelero(void);
 
 
 #endif /* ACCELERO_H_ */
