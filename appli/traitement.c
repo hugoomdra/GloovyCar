@@ -4,7 +4,26 @@
 State traitement(uint16_t data[]){
 
 
+	State etat = DEFAUT;
 
+	if(){
+		etat = AVANCER;
+	}
+	else if(){
+		etat = RECULER;
+	}
+	else if(){
+		etat = ARRET;
+	}
+	else if(){
+		etat = GAUCHE;
+	}
+	else if(){
+		etat = DROITE;
+	}
+	else{
+		//etat reste à défaut.
+	}
 
-	return DEFAULT;
+	return etat;
 }
