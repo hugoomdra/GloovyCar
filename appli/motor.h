@@ -4,7 +4,8 @@
  *  Created on: 27 avr. 2020
  *      Author: Germain
  */
-
+#ifndef MOTOR_H
+#define MOTOR_H
 
 typedef enum{
 	AVANCER,

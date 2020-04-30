@@ -6,19 +6,22 @@ State traitement(int16_t data[]){
 
 	State etat = DEFAUT;
 
-	if(){
+	int16_t condition;
+
+	//data[0] : X data[1] : Y data[2] : Z
+	if(/*exemple condition*/ data[0] <120 && data[0] >-10 && data[1]>-100 && data[1] < 300 && data[2] > 300){
 		etat = AVANCER;
 	}
-	else if(){
+	else if(condition /* Condition ou la main est penché en arriere*/){
 		etat = RECULER;
 	}
-	else if(){
+	else if(condition /*Condition ou la main est a plat*/){
 		etat = ARRET;
 	}
-	else if(){
+	else if(condition /*condition ou la main est penche vers la gauche*/){
 		etat = GAUCHE;
 	}
-	else if(){
+	else if(condition /*condition ou la main est penche vers la gauche*/){
 		etat = DROITE;
 	}
 	else{
