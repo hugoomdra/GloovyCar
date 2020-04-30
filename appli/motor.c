@@ -56,16 +56,6 @@ void arret(){
 	HAL_GPIO_WritePin(GPIOB, MOTOR2_RIN, 1);
 }
 
-void arret(){
-	//Les deux moteurs sont off (stand-by)
-	HAL_GPIO_WritePin(GPIOA, MOTOR1_FIN, 0);
-	HAL_GPIO_WritePin(GPIOB, MOTOR1_RIN, 0);
-
-	HAL_GPIO_WritePin(GPIOA, MOTOR2_FIN, 0);
-	HAL_GPIO_WritePin(GPIOB, MOTOR2_RIN, 0);
-}
-
-
 void machine_etat(State etat){
 
 	int16_t valeurs_a_determiner_en_test;
